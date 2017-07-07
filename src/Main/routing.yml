@@ -1,0 +1,12 @@
+home:
+    pattern: /
+    controller: Page
+page:
+    pattern: /page
+    controller: Page
+cover:
+    pattern: /cover
+    controller: Cover
+pika:
+  pattern: /pika
+  controller: Pika
