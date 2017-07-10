@@ -26,17 +26,17 @@ class GetController extends AbstractController
 //        $name = $this->input->getString('name');
           $age = $this->input->getInt('age');
 //        $gender = $this->input->get('gender');
-//
-//        $save = $this->input->getFloat('save');
+          $save = $this->input->getFloat('save');
         // TODO: Implement doExecute() method.
 
         $view = $this->getView( 'Pika');
         /** @var PikaModel $model */
         $model = $this->getModel('Pika');
-        $members = $model->getMembers($age);
-//      $members = $model->getMembers($save);
+        $members = $model->getMembers($age, $save);
+
 
         $view->set('members',$members);
+
 
 
 //        $view->set('name', $name);
