@@ -21,11 +21,7 @@ return [
 	 * you registered here.
 	 */
 	'packages' => [
-		'phoenix' => \Phoenix\PhoenixPackage::class,
-
-		'flower' => \Asuka\Flower\FlowerPackage::class,
-		'fsimple' => \Asuka\Fsimple\FsimplePackage::class,
-		'fempty' => \Asuka\Fempty\FemptyPackage::class
+		'todo' => \Todo\TodoPackage::class
 	],
 
 	/*
