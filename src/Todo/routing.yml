@@ -4,3 +4,8 @@ home:
 task:
   pattern: /task(/id)
   controller: Task
+
+#  action 可以克制畫自己需要的contoller的名字 不會限制到一定要savecontroller
+#  method 可以限制一定要什麼方法
+#  variables 可以設定預設值
+#  extra 可以設定額外客製化的資料
